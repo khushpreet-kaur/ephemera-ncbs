@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel = "stylesheet" href = "libs/bootstrap.min.css" crossorigin="anonymous"> -->
+    <title>NCBS</title>
+  </head>
+
+  <body>
+    <div class="container" id='text'>
+      <p>National Centre for Biological Sciences in Bangalore, Karnataka, 
+      is a research centre specialising in biological research. It is a 
+      part of the Tata Institute of Fundamental Research under the 
+      Department of Atomic Energy of the Government of India</p>
+    </div>
+    <div class="container" id="img-container"></div>
+  </body>
+
+  <!--Scripts here -->
+  <!-- <script>
+
+    var images = ["image1", "image2", "image3", "image4", 
+                 "image5", "image6", "image7", "image8"];
+
+    function getRandomImage(images, path) {
+      path = path || '../images/';
+      var num = Math.floor( Math.random() * images.length );
+      return images[ num ];
+    }
+
+    function renderImage() {
+      var img = getRandomImage(images, '../images/');
+      var elem = document.createElement("img");
+      elem.src = path + img + ".jpg"; 
+      elem.style.width = "50%";
+      // $("#img-container").append(elem);
+      document.getElementById('img-container').appendChild(elem);
+    }
+
+  </script> -->
+  <script src="libs/jquery.min.js"></script>
+  <script src="libs/underscore-min.js"></script>
+  <script src="libs/backbone-min.js"></script>
+  <script src="main.js"></script>
+</html>
